@@ -66,7 +66,7 @@ addToCart = (event) => {
                     Add to cart
                   </button>
                   <button type="button" class="btn btn-sm btn-outline-secondary" onclick="skipBook(event)">
-                    skip
+                    remove from cart
                   </button>
                 </div>
                 <small class="text-muted"></small>
@@ -74,6 +74,8 @@ addToCart = (event) => {
             </div>
           </div>`
          Scart.appendChild(col)
+
+         alert("added to cart")
 
 
 }
